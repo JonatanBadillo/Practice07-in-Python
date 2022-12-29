@@ -5,3 +5,6 @@ Develop a program that reads those data and do:
     *If the salary is less than 500, but his laabor old is less than 10 years, give him a 5% salary increase
     *If the salary is higher or equal to 500 , print the salary without changes
 '''
+
+salary = int(input("Introduce your salary : "))
+labor_old = int(input("Introduce your labor old : "))
