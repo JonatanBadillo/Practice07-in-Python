@@ -8,3 +8,12 @@ Develop a program that reads those data and do:
 
 salary = int(input("Introduce your salary : "))
 labor_old = int(input("Introduce your labor old : "))
+
+if salary<500 and labor_old>=10 :
+    salary = (salary * 0.20) + salary
+elif salary<500 and labor_old < 10 :
+    salary = (salary * 0.05) + salary
+elif salary>=500:
+    salary = salary
+
+print(f"Yor salary is: {salary}")
